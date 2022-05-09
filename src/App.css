@@ -1,0 +1,38 @@
+:root
+{
+  --yellow: #F5C32C;
+    --blue : rgb(78, 78, 228);
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --blueCard: rgb(20, 20, 173);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+button,.button{
+  border-radius: 30px;
+  color: white;
+  border:none;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+  background: linear-gradient(180deg,rgb(36, 85, 221),rgb(11, 40, 168)) ;
+}
+
+button:hover{
+  cursor: pointer;
+  background: white;
+  color: rgb(11, 40, 168);
+  border: 2px solid rgb(11, 40, 168);
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);    
+}
+
+
+  
+
+  
