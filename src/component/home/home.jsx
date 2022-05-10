@@ -7,12 +7,11 @@ import Services from '../services/services'
 
 function Home() {
   return (
-      <div className=''>
+      <div className='home'>
     <Intro/>
     <Services/>
     <Portfolio/>
-    <Contact/>
-    
+    <Contact/> 
     </div>
   )
 }

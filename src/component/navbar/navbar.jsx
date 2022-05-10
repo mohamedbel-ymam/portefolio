@@ -5,7 +5,7 @@ import './navbar.css';
 function Navbar() {
   return (
     <div className="n-wrapper">
-      <div className="n-left">
+      <div className="n-lef">
         <div className="n-name">Mohamed</div>
       </div>
       <div className="n-right">

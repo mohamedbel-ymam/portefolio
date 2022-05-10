@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage":"http://mohamedbel-ymam.github.io/portefolio",
+    "homepage":"http://mohamedbel-ymam.github.io/",
     "@emailjs/browser": "^3.6.2",
     "@iconscout/react-unicons": "^1.1.6",
     "@iconscout/unicons": "^4.0.1",
