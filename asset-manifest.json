@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portefolio/static/css/main.48e0e900.css",
+    "main.css": "/portefolio/static/css/main.d0ea8808.css",
     "main.js": "/portefolio/static/js/main.679a8948.js",
     "static/media/mee.png": "/portefolio/static/media/mee.94da59dd81ed212e44be.png",
     "static/media/wheather.PNG": "/portefolio/static/media/wheather.af91a1c69366635baadd.PNG",
@@ -11,14 +11,15 @@
     "static/media/green.PNG": "/portefolio/static/media/green.2f974ad83da5680517b8.PNG",
     "static/media/fish.PNG": "/portefolio/static/media/fish.aa6695f89c8ed28c992b.PNG",
     "static/media/become.PNG": "/portefolio/static/media/become.71cabc12a166716f237e.PNG",
+    "static/media/Gumela Regular.otf": "/portefolio/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
     "static/media/thumbup.png": "/portefolio/static/media/thumbup.e06790ba656f0397cbe5.png",
     "static/media/robot.PNG": "/portefolio/static/media/robot.fe2ef8a1b71835686c5f.PNG",
     "index.html": "/portefolio/index.html",
-    "main.48e0e900.css.map": "/portefolio/static/css/main.48e0e900.css.map",
+    "main.d0ea8808.css.map": "/portefolio/static/css/main.d0ea8808.css.map",
     "main.679a8948.js.map": "/portefolio/static/js/main.679a8948.js.map"
   },
   "entrypoints": [
-    "static/css/main.48e0e900.css",
+    "static/css/main.d0ea8808.css",
     "static/js/main.679a8948.js"
   ]
 }
