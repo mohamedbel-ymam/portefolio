@@ -7,9 +7,10 @@ import Contact from "./component/contact/contact";
 import Footer from "./component/footer/footer";
 import { useContext } from "react";
 import { themeContext } from "./context";
-import { Route, Routes } from "react-router-dom";
+
 import Home from "./component/home/home";
 import Allproject from "./component/Allprojetct/Allproject";
+import { Route, Routes } from "react-router-dom";
  function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -31,9 +32,9 @@ import Allproject from "./component/Allprojetct/Allproject";
         <Route path="d-projet" element={<Portfolio />} />
         <Route path="contact" element={<Contact/>} />
         <Route path="t-projet" element={<Allproject/>} />
-
+        </Routes>
     
-      </Routes>
+      
       <Footer/>
      
       
