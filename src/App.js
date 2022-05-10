@@ -21,14 +21,23 @@ import { Route, Routes } from "react-router-dom";
       style={{
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",
-      }}
-    >
-       {/* <Home/> */}
-      <Navbar/>
-        <Intro/>
+      }}>
+       <Navbar/>
+    <Routes>
+    <Route path="/" element={<Home/>} />
+      <Route path="intro" element={<Intro/>} />
+      <Route path="p-projet" element={<Services />} />
+      <Route path="d-projet" element={<Portfolio />} />
+      <Route path="contact" element={<Contact/>} />
+      
+      </Routes>
+       
+
+      
+        {/* <Intro/>
         <Services/>
         <Portfolio/>
-        <Contact/>
+        <Contact/> */}
     
       
       <Footer/>
