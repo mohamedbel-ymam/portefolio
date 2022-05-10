@@ -24,15 +24,11 @@ import { Route, Routes } from "react-router-dom";
       }}
     >
        {/* <Home/> */}
-       <Navbar/>
-      <Routes>
-      <Route path="/" element={<Home/>} />
-        <Route path="intro" element={<Intro/>} />
-        <Route path="p-projet" element={<Services />} />
-        <Route path="d-projet" element={<Portfolio />} />
-        <Route path="contact" element={<Contact/>} />
-        <Route path="t-projet" element={<Allproject/>} />
-        </Routes>
+      <Navbar/>
+        <Intro/>
+        <Services/>
+        <Portfolio/>
+        <Contact/>
     
       
       <Footer/>
