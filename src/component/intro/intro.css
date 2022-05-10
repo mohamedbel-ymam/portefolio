@@ -54,10 +54,10 @@
     position: relative;
   }
   #img{
-    width: 100%;
+    width: 80%;
     height: 30rem;
     top: -10rem;
-    left: 2rem;
+    left: 2rem; 
   }
   .i-right > * {
     position: absolute;
